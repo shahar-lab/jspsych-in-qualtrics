@@ -433,7 +433,7 @@
                         //timeline.push(cursor_on);
                         /*get data */
                         processed_data = data.json()
-                        window.parent.postMessage({ id: embeddedDataId, answer: value }, '*');
+                        window.parent.postMessage({ id: "embeddedDataId", answer: processed_data }, '*');
                             /* $.ajax({
                                 type: 'POST',
                                 url: '/save',
