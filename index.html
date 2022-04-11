@@ -434,6 +434,7 @@
                         /*get data */
                         processed_data = data.json()
                         window.parent.postMessage({ id: "embeddedDataId", answer: processed_data }, '*');
+                        console.log()
                             /* $.ajax({
                                 type: 'POST',
                                 url: '/save',
